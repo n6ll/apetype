@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>DPSS Speed Typing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>
+                  
+                <image src="https://i.imgur.com/gP2Queh.png" width="90" height="90"/>  
+               ApeType
+        </h1> 
+        <div id="message"></div>
+       
+        <div style="font-family: 'Arial', sans-serif;" id="header">
+            <div id="info"></div>
+          
+            <div id="loginForm" style="display: none;">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button id="loginBtn">Login</button>
+            </div>
+            <div id="logoutBtn" style="display: none;">
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </div>
+        <div id="game" tabindex="0">
+            <div id="words"></div>
+            <div id="cursor"></div>
+            
+            <div id="focus-error">Click here to focus</div>
+        </div>
+    </main>
+    <script src="typing.js"></script>
+    <div style="text-align: center; position: fixed; bottom: 0; width: 100%; font-family: 'Arial', sans-serif; font-size: 16px;">
+        <p><a href="https://n6ll.github.io/">© protected</a></p>
+    </div>
+</body>
+</html>
